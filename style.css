@@ -1,0 +1,57 @@
+body{
+    background-color: #3f3f3f;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ,monospace;
+}
+
+.heading{
+    text-align: center;
+    color:#33ddc1
+}
+
+.mainbody{
+    display:flex;
+    margin:auto;
+    padding:20px;
+    justify-content: center;
+}
+
+.star{
+    width:60px;
+    height: auto;
+    padding:10px;
+}
+
+.star:hover{
+    width:75px;
+    
+}
+
+#press{
+    text-align: center;
+    padding:2px;
+    color:#33ddc1;
+    font-size: 30px;;
+}
+
+.reset{
+    text-align: center;
+    padding:20px;
+    margin:100px;
+}
+
+#re{
+    width:200px;
+    background-color: #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#re:hover{
+    background-color: #33ddc1;
+    width:220px;
+    box-shadow: 0px 10px 10px #000 #3f3f3f;
+}
+
+#re:active{
+    background-color: #dd3333;
+}
