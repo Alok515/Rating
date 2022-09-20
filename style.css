@@ -24,6 +24,7 @@ body{
 .star:hover{
     width:75px;
     
+    
 }
 
 #press{
@@ -54,4 +55,18 @@ body{
 
 #re:active{
     background-color: #dd3333;
+}
+.cl{
+    background-color: #3f3f3f;
+    border:0px;
+}
+
+@media  screen and (max-width:600px) {
+    .star{
+        padding:2px;
+        width:40px;
+    } 
+    .star:hover{
+        width:45px;
+    }       
 }
